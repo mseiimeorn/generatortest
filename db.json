@@ -1,0 +1,736 @@
+  {
+      "identityData": {
+        "employeeId": 1,
+        "memberId": 0,
+        "aliases": [
+          {
+            "aliasType": "dav360",
+            "alias": "pascal.jarczyk@DAVdevelopment.onmicrosoft.com",
+            "displayName": "Pascal Jarczyk"
+          }
+        ]
+      },
+      "statusData": {
+        "status": "Aktiv",
+        "statusDescription": "Aktiviert von Pascal Jarczyk"
+      },
+      "metaData": {
+        "createdOn": "24.04.2020",
+        "createdBy": "",
+        "modifiedOn": "12.11.2020",
+        "modifiedBy": "Pascal Jarczykkkkkkk"
+      },
+      "personalData": {
+        "gender": "male",
+        "academicTitle": "",
+        "firstName": "Pascal",
+        "lastName": "Jarczykkkkkkk",
+        "birthDate": "2000/01/24",
+        "aboutMe": null
+      },
+      "contactData": {
+        "postal": [
+          {
+            "addition": "",
+            "address": "Mohnweg 9",
+            "zipCode": "12355",
+            "city": "Fürth",
+            "country": "de",
+            "purpose": "private",
+            "preferred": true
+          }
+        ],
+        "phone": [
+          {
+            "type": "mobile",
+            "countryCallingCode": "49",
+            "areaCode": "173",
+            "number": "7564451",
+            "purpose": "private",
+            "preferred": true
+          }
+        ],
+        "email": []
+      },
+      "assignments": {
+        "section": {
+          "sectionId": 0,
+          "sectionNumber": "BGS",
+          "sectionNameShort": "BGS",
+          "sectionNameLong": "Alpenverein Bundesgeschäftsstelle",
+          "sectionNameInternal": "Internal Name",
+          "contactData": {
+            "postal": [
+              {
+                "addition": null,
+                "address": "Von-Kahr-Straße 2-4",
+                "zipCode": "80997",
+                "city": "München",
+                "country": "DE",
+                "purpose": null,
+                "preferred": false
+              }
+            ],
+            "phone": [],
+            "email": []
+          }
+        },
+        "departments": [
+          {
+            "id": 1,
+            "title": "Vorstand",
+            "description": "Vereinsvorstand mit seinen Mitgliedern",
+            "headOfDepartment": null
+          },
+          {
+            "id": 10,
+            "title": "Präsidium",
+            "description": "Präsidium des Deutschen Alpenverein e.V.",
+            "headOfDepartment": null
+          }
+        ],
+        "jobs": [
+          {
+            "id": 1,
+            "title": "Erster Vorsitz",
+            "description": "Erste Vorsitzende / Erster Vorsitzender",
+            "preferred": false
+          }
+        ],
+        "usergroups": [
+          {
+            "id": 1,
+            "title": "Mitarbeiter",
+            "name": "employee",
+            "description": "Grundlegende Zugriffsrechte in DAV360",
+            "roles": [
+              {
+                "id": 1,
+                "name": "employee",
+                "title": "Mitarbeiter",
+                "description": "Grundlegender Zugriff auf DAV360 sowie DAV360 Hilfe",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "employee.knowledge",
+                "title": "DAV360 Wissen",
+                "description": "Lesender Zugriff auf DAV360 Wissen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 2,
+                    "name": "dav360.knowledge.read",
+                    "title": "DAV360 Wissen - Lesen",
+                    "description": "Einsicht in die DAV360 Wissensdatenbank."
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "employee.help.customer",
+                "title": "DAV360 Hilfe - Endanwender",
+                "description": "Anfragen an den lokalen Support über das Customer Portal erstellen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 2,
+                    "name": "dav360.knowledge.read",
+                    "title": "DAV360 Wissen - Lesen",
+                    "description": "Einsicht in die DAV360 Wissensdatenbank."
+                  },
+                  {
+                    "id": 3,
+                    "name": "dav360.help.customer",
+                    "title": "DAV360 Hilfe - Customer",
+                    "description": "Anfragen an den lokalen Support über das Customer Portal erstellen"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Zugang DAV-Portal",
+            "name": "employee.davportal",
+            "description": "Zugang zum DAV Portal",
+            "roles": [
+              {
+                "id": 1,
+                "name": "employee",
+                "title": "Mitarbeiter",
+                "description": "Grundlegender Zugriff auf DAV360 sowie DAV360 Hilfe",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "employee.davportal",
+                "title": "DAV Portal Nutzer",
+                "description": "Zugriff auf das DAV Portal",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 4,
+                    "name": "davportal",
+                    "title": "DAV-Portal - Zugang",
+                    "description": "Zugriff auf das DAV Portal"
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "employee.knowledge",
+                "title": "DAV360 Wissen",
+                "description": "Lesender Zugriff auf DAV360 Wissen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 2,
+                    "name": "dav360.knowledge.read",
+                    "title": "DAV360 Wissen - Lesen",
+                    "description": "Einsicht in die DAV360 Wissensdatenbank."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "title": "MV Manager Online Nutzer",
+            "name": "employee.rbc.mv",
+            "description": "Nutzer der RBC Online Moduls MV-Manager",
+            "roles": [
+              {
+                "id": 1,
+                "name": "employee",
+                "title": "Mitarbeiter",
+                "description": "Grundlegender Zugriff auf DAV360 sowie DAV360 Hilfe",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "employee.knowledge",
+                "title": "DAV360 Wissen",
+                "description": "Lesender Zugriff auf DAV360 Wissen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 2,
+                    "name": "dav360.knowledge.read",
+                    "title": "DAV360 Wissen - Lesen",
+                    "description": "Einsicht in die DAV360 Wissensdatenbank."
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "employee.help.customer",
+                "title": "DAV360 Hilfe - Endanwender",
+                "description": "Anfragen an den lokalen Support über das Customer Portal erstellen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 2,
+                    "name": "dav360.knowledge.read",
+                    "title": "DAV360 Wissen - Lesen",
+                    "description": "Einsicht in die DAV360 Wissensdatenbank."
+                  },
+                  {
+                    "id": 3,
+                    "name": "dav360.help.customer",
+                    "title": "DAV360 Hilfe - Customer",
+                    "description": "Anfragen an den lokalen Support über das Customer Portal erstellen"
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "name": "employee.rbc.mv",
+                "title": "RBC Online Nutzer - MV",
+                "description": "RBC Online MV Nutzer",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 10,
+                    "name": "license.microsoft365.e3",
+                    "title": "Lizenz - Microsoft 365 E3",
+                    "description": "Zuweisung einer Microsoft 365 E3 Lizenz"
+                  },
+                  {
+                    "id": 11,
+                    "name": "rbc.mv",
+                    "title": "RBC Online MV",
+                    "description": "Zugriff auf RBC Online MV"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "title": "Pimcore Redaktion - Global",
+            "name": "employee.wcms.editorial.global",
+            "description": "Editierender Zugriff auf das Pimcore Redaktionssystem für übergeordnete globale Inhalte.",
+            "roles": [
+              {
+                "id": 1,
+                "name": "employee",
+                "title": "Mitarbeiter",
+                "description": "Grundlegender Zugriff auf DAV360 sowie DAV360 Hilfe",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "employee.knowledge",
+                "title": "DAV360 Wissen",
+                "description": "Lesender Zugriff auf DAV360 Wissen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 2,
+                    "name": "dav360.knowledge.read",
+                    "title": "DAV360 Wissen - Lesen",
+                    "description": "Einsicht in die DAV360 Wissensdatenbank."
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "employee.help.customer",
+                "title": "DAV360 Hilfe - Endanwender",
+                "description": "Anfragen an den lokalen Support über das Customer Portal erstellen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 2,
+                    "name": "dav360.knowledge.read",
+                    "title": "DAV360 Wissen - Lesen",
+                    "description": "Einsicht in die DAV360 Wissensdatenbank."
+                  },
+                  {
+                    "id": 3,
+                    "name": "dav360.help.customer",
+                    "title": "DAV360 Hilfe - Customer",
+                    "description": "Anfragen an den lokalen Support über das Customer Portal erstellen"
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "name": "employee.wcms.editorial.global",
+                "title": "Pimcore Redaktion - Global",
+                "description": "Editierender Zugriff auf das Pimcore Redaktionssystem für übergeordnete globale Inhalte.",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 17,
+                    "name": "wcms.editorial.global",
+                    "title": "Pimcore - Redaktion - Global",
+                    "description": "Editierender Zugriff auf das Pimcore Redaktionssystem für übergeordnete globale Inhalte."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "title": "Globaler Admin",
+            "name": "admin.global",
+            "description": "Globaler Admin",
+            "roles": [
+              {
+                "id": 1,
+                "name": "employee",
+                "title": "Mitarbeiter",
+                "description": "Grundlegender Zugriff auf DAV360 sowie DAV360 Hilfe",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "employee.knowledge",
+                "title": "DAV360 Wissen",
+                "description": "Lesender Zugriff auf DAV360 Wissen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 2,
+                    "name": "dav360.knowledge.read",
+                    "title": "DAV360 Wissen - Lesen",
+                    "description": "Einsicht in die DAV360 Wissensdatenbank."
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "employee.help.customer",
+                "title": "DAV360 Hilfe - Endanwender",
+                "description": "Anfragen an den lokalen Support über das Customer Portal erstellen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 2,
+                    "name": "dav360.knowledge.read",
+                    "title": "DAV360 Wissen - Lesen",
+                    "description": "Einsicht in die DAV360 Wissensdatenbank."
+                  },
+                  {
+                    "id": 3,
+                    "name": "dav360.help.customer",
+                    "title": "DAV360 Hilfe - Customer",
+                    "description": "Anfragen an den lokalen Support über das Customer Portal erstellen"
+                  }
+                ]
+              },
+              {
+                "id": 14,
+                "name": "employeeManagement.read.global",
+                "title": "Mitarbeiterverwaltung - Lesen - Global",
+                "description": "Beliebige Mitarbeiter über Sektionen hinweg einsehen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 19,
+                    "name": "employee.read.global",
+                    "title": "Mitarbeiter lesen - Global",
+                    "description": "Lesen der Mitarbeiterdaten über alle Sektionen hinweg."
+                  }
+                ]
+              },
+              {
+                "id": 16,
+                "name": "employeeManagement.write.global",
+                "title": "Mitarbeiterverwaltung - Schreiben - Global",
+                "description": "Mitarbeiter über Sektionen hinweg erstellen, bearbeiten und löschen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 19,
+                    "name": "employee.read.global",
+                    "title": "Mitarbeiter lesen - Global",
+                    "description": "Lesen der Mitarbeiterdaten über alle Sektionen hinweg."
+                  },
+                  {
+                    "id": 21,
+                    "name": "employee.create.global",
+                    "title": "Mitarbeiter erstellen - Global",
+                    "description": "Erstellen eines Mitarbeiters in einer beliebigen Sektion."
+                  },
+                  {
+                    "id": 23,
+                    "name": "employee.edit.data.global",
+                    "title": "Mitarbeiterdaten bearbeiten - Global",
+                    "description": "Bearbeiten der Mitarbeiterdaten eines Mitarbeiters einer beliebigen Sektion."
+                  },
+                  {
+                    "id": 25,
+                    "name": "employee.edit.assignments",
+                    "title": "Zuordnungen bearbeiten",
+                    "description": "Bearbeiten der Zuordnungen eines Mitarbeiters."
+                  },
+                  {
+                    "id": 26,
+                    "name": "employee.delete.global",
+                    "title": "Mitarbeiter löschen - Global",
+                    "description": "Löschen eines Mitarbeiters einer beliebigen Sektion."
+                  },
+                  {
+                    "id": 28,
+                    "name": "employee.state.global",
+                    "title": "Mitarbeiterzustand ändern - Global",
+                    "description": "Ändern des Zustandes eines Mitarbeiters einer beliebigen Sektion."
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "teamsManagement.read.global",
+                "title": "Teamsverwaltung - Lesen - Global",
+                "description": "Beliebige Teams über Sektionen hinweg einsehen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 30,
+                    "name": "teams.read.global",
+                    "title": "Teams lesen - Global",
+                    "description": "Lesen der Teamsdaten über alle Sektionen hinweg."
+                  }
+                ]
+              },
+              {
+                "id": 20,
+                "name": "teamsManagement.write.global",
+                "title": "Teamsverwaltung - Schreiben - Global",
+                "description": "Teams über Sektionen hinweg erstellen, bearbeiten, archivieren und löschen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 30,
+                    "name": "teams.read.global",
+                    "title": "Teams lesen - Global",
+                    "description": "Lesen der Teamsdaten über alle Sektionen hinweg."
+                  },
+                  {
+                    "id": 32,
+                    "name": "teams.create.global",
+                    "title": "Teams erstellen - Global",
+                    "description": "Erstellen eines Teams in einer beliebigen Sektion."
+                  },
+                  {
+                    "id": 34,
+                    "name": "teams.edit.global",
+                    "title": "Teams bearbeiten - Global",
+                    "description": "Bearbeiten der Besetzung eines Teams einer beliebigen Sektion."
+                  },
+                  {
+                    "id": 36,
+                    "name": "teams.delete.global",
+                    "title": "Teams löschen - Global",
+                    "description": "Löschen eines Teams einer beliebigen Sektion."
+                  },
+                  {
+                    "id": 38,
+                    "name": "teams.archive.global",
+                    "title": "Teams archivieren - Global",
+                    "description": "Archivieren eines Teams einer beliebigen Sektion."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "title": "Mitarbeiterverwalter - Global",
+            "name": "employeemanager.global",
+            "description": "Verwalter der Mitarbeiter aller Sektionen",
+            "roles": [
+              {
+                "id": 1,
+                "name": "employee",
+                "title": "Mitarbeiter",
+                "description": "Grundlegender Zugriff auf DAV360 sowie DAV360 Hilfe",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "employee.knowledge",
+                "title": "DAV360 Wissen",
+                "description": "Lesender Zugriff auf DAV360 Wissen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 2,
+                    "name": "dav360.knowledge.read",
+                    "title": "DAV360 Wissen - Lesen",
+                    "description": "Einsicht in die DAV360 Wissensdatenbank."
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "employee.help.customer",
+                "title": "DAV360 Hilfe - Endanwender",
+                "description": "Anfragen an den lokalen Support über das Customer Portal erstellen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 2,
+                    "name": "dav360.knowledge.read",
+                    "title": "DAV360 Wissen - Lesen",
+                    "description": "Einsicht in die DAV360 Wissensdatenbank."
+                  },
+                  {
+                    "id": 3,
+                    "name": "dav360.help.customer",
+                    "title": "DAV360 Hilfe - Customer",
+                    "description": "Anfragen an den lokalen Support über das Customer Portal erstellen"
+                  }
+                ]
+              },
+              {
+                "id": 14,
+                "name": "employeeManagement.read.global",
+                "title": "Mitarbeiterverwaltung - Lesen - Global",
+                "description": "Beliebige Mitarbeiter über Sektionen hinweg einsehen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 19,
+                    "name": "employee.read.global",
+                    "title": "Mitarbeiter lesen - Global",
+                    "description": "Lesen der Mitarbeiterdaten über alle Sektionen hinweg."
+                  }
+                ]
+              },
+              {
+                "id": 15,
+                "name": "employeeManagement.read.section",
+                "title": "Mitarbeiterverwaltung - Lesen - Sektion",
+                "description": "Beliebige Mitarbeiter innerhalb derselben Sektion einsehen",
+                "permissions": [
+                  {
+                    "id": 1,
+                    "name": "dav360.global",
+                    "title": "Zugang zu DAV360",
+                    "description": "Allgemeiner Zugang zum DAV360 Portal. "
+                  },
+                  {
+                    "id": 20,
+                    "name": "employee.read.section",
+                    "title": "Mitarbeiter lesen - Sektion",
+                    "description": "Lesen der Mitarbeiterdaten innerhalb derselben Sektion."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "settings": {
+        "contactDataPreference": "custom",
+        "displayedJobPreference": "",
+        "language": "de_DE",
+        "theme": "bright",
+        "displayDashboardImage": false,
+        "editPhoneAllowed": true,
+        "editAddressAllowed": true
+      }
+    }
+  ]
+}
